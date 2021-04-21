@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 1.4;
+    color: #011627;
+    background-color: #fdfffc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Changa One', cursive;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+a {
+    color: deeppink;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkmagenta;
+}
