@@ -93,6 +93,56 @@ header nav [href="index.html"] {
     display: none;
 }
 
+/***************************************
+ CONTENU PRINCIPAL
+ ****************************************/
+main {
+    padding: 20px;
+}
+
+/***************************************
+ PIED DE PAGE
+ ****************************************/
+footer {
+    text-align: center;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul li {
+    display: inline;
+}
+
+footer nav ul li img {
+    width: 50px;
+    margin: 0 15px; /* 0 haut/bas, 15px gauche droite */
+    filter: grayscale(100%);
+    transition: all 500ms linear;
+}
+
+footer nav ul li img:hover {
+    filter: grayscale(0);
+}
+
+/***************************************
+ PAGE INFORMATIONS
+ ****************************************/
+
+.page-infos .photo-michel {
+    border-radius: 50%;
+    max-width: 150px;
+    display: block;
+    margin-left: auto; /* centrer horizontalement */
+    margin-right: auto; /* centrer horizontalement */
+}
+
+.page-infos h1 {
+    text-align: center;
+}
 
 
 
