@@ -48,6 +48,7 @@ a {
  ****************************************/
 header {
     background-color: #011627;
+    padding: 1rem;
 }
 
 header .logo {
@@ -57,7 +58,6 @@ header .logo {
 header .logo-titre {
     color: #2ec4b6;
     font-size: 1.75rem;
-    margin-top: 2.5rem;
     margin-bottom: .5rem;
 }
 
@@ -71,13 +71,21 @@ header nav {
 
 header nav ul {
     padding: 0;
-    list-style-type: none;
+    list-style-type: none; /* Enlève les puces de la liste */
 }
 
 header nav ul li {
     display: inline;
 }
 
+header nav ul li a {
+    padding: 15px 10px; /* 15px haut/bas 10px gauche/droite */
+    font-weight: bold;
+}
+
+header nav [href="index.html"] {
+    display: none;
+}
 
 
 
