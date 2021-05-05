@@ -75,12 +75,18 @@ header nav ul {
 }
 
 header nav ul li {
-    display: inline;
+    display: inline; /* Affiche les élément en ligne */
 }
 
 header nav ul li a {
+    color: #fdfffc;
     padding: 15px 10px; /* 15px haut/bas 10px gauche/droite */
     font-weight: bold;
+}
+
+header nav ul li a:hover,
+header nav ul li a.actif {
+    color: #2ec4b6;
 }
 
 header nav [href="index.html"] {
