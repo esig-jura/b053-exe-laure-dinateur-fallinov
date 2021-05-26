@@ -144,7 +144,39 @@ footer nav ul li img:hover {
     text-align: center;
 }
 
+/***************************************
+ PAGE ACCUEIL
+ ****************************************/
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 
+.page-accueil .galerie {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* TU ES UN CONTAINER */
+    display: flex;
+    flex-direction: row;
+    /* Empèche les élments de sortir du container */
+    flex-wrap:wrap;
+    /* Aligmenet horizontal */
+    justify-content: space-between;
+    /* Aligment vertical*/
+    align-items: flex-start;
+}
+
+/* Les éléments du container */
+.page-accueil .galerie li {
+    padding: 1rem 2.5%;
+    /* Largeur de base d'un élément */
+    flex-basis: 50%;
+    /* Un élément peut grandir jusqu'à 2x sa taille de base */
+    flex-grow: 2;
+}
+
+/* Les éléments du container */
+.page-accueil .galerie li figure {
+    margin: 0;
+}
 
 
 
