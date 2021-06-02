@@ -170,7 +170,7 @@ footer nav ul li img:hover {
     align-items: flex-start;
 }
 
-/* Les éléments de lite, qui seront les éléments du container FLEX */
+/* Les éléments de liste, qui seront les éléments du container FLEX */
 .page-accueil .galerie li {
     padding: 1rem 2.5%;
     /* Largeur de base d'un élément */
@@ -182,7 +182,56 @@ footer nav ul li img:hover {
 /* Les éléments du container */
 .page-accueil .galerie li figure {
     margin: 0;
+    background-color: #e7e9eb;
+}
+/* Aux légendes des images <figcaption> */
+.page-accueil .galerie li figure figcaption {
+    padding: 5px 10px;
+}
+/* Couleur des liens de la galerie */
+.page-accueil .galerie li a {
+    color: #011627;
 }
 
+/***************************************
+ PAGE CONTACT
+ ****************************************/
 
+.page-infos .contact {
+    padding: 0;
+    list-style-type: none;
+}
 
+.page-infos .contact li {
+    border: 2px solid red;
+    margin: 5px 0;
+}
+
+.page-infos .contact li a {
+    border: 2px solid blue;
+    margin: 5px 0;
+    padding-left: 35px;
+    background-image: url("../img/phone.png");
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: 5px -1px;
+}
+
+/*
+Sélecteurs d'attributs CSS
+http://www.w3schools.com/css/css_attribute_selectors.asp
+    - commence par   ^=
+    - contient       *=
+    - se termine par $=
+*/
+.page-infos .contact li a[href^="mailto"] {
+    background-image: url("../img/mail.png");
+}
+
+.page-infos .contact li a[href*="twitter"] {
+    background-image: url("../img/twitter.png");
+}
+
+.page-infos .contact li a[href*="facebook"] {
+    background-image: url("../img/facebook.png");
+}
