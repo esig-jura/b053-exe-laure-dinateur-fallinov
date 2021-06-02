@@ -5,12 +5,17 @@
         flex-basis: 33%;
     }
 
-    /* Page info */
+    /* Page contact */
     .page-contact section {
         width: 49%;
         display: inline-block;
         vertical-align: top;
-        background-color: yellow;
+    }
+
+    /* Page infos */
+    .page-infos .photo-michel {
+        float: left;
+        margin: 0 5% 220px 0;
     }
 
 }
