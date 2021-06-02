@@ -203,14 +203,12 @@ footer nav ul li img:hover {
 }
 
 .page-infos .contact li {
-    border: 2px solid red;
     margin: 5px 0;
 }
 
 .page-infos .contact li a {
-    border: 2px solid blue;
     margin: 5px 0;
-    padding-left: 35px;
+    padding-left: 40px;
     background-image: url("../img/phone.png");
     background-size: 25px 25px;
     background-repeat: no-repeat;
