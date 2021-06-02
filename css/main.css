@@ -197,16 +197,16 @@ footer nav ul li img:hover {
  PAGE CONTACT
  ****************************************/
 
-.page-infos .contact {
+.page-contact .contact {
     padding: 0;
     list-style-type: none;
 }
 
-.page-infos .contact li {
+.page-contact .contact li {
     margin: 5px 0;
 }
 
-.page-infos .contact li a {
+.page-contact .contact li a {
     margin: 5px 0;
     padding-left: 40px;
     background-image: url("../img/phone.png");
@@ -222,14 +222,14 @@ http://www.w3schools.com/css/css_attribute_selectors.asp
     - contient       *=
     - se termine par $=
 */
-.page-infos .contact li a[href^="mailto"] {
+.page-contact .contact li a[href^="mailto"] {
     background-image: url("../img/mail.png");
 }
 
-.page-infos .contact li a[href*="twitter"] {
+.page-contact .contact li a[href*="twitter"] {
     background-image: url("../img/twitter.png");
 }
 
-.page-infos .contact li a[href*="facebook"] {
+.page-contact .contact li a[href*="facebook"] {
     background-image: url("../img/facebook.png");
 }

@@ -4,6 +4,30 @@
         /* Largeur de base d'un élément */
         flex-basis: 33%;
     }
+
+    /* Page info */
+    .page-contact section {
+        width: 49%;
+        display: inline-block;
+        vertical-align: top;
+        background-color: yellow;
+    }
+
+}
+
+@media only screen and (min-width: 660px) {
+    header .logo {
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+        width: 42%;
+    }
+
+    header nav {
+        display: inline-block;
+        text-align: right;
+        width: 57%;
+    }
 }
 
 @media only screen and (min-width: 910px){
@@ -11,5 +35,9 @@
     .page-accueil .galerie li {
         /* Largeur de base d'un élément */
         flex-basis: 25%;
+    }
+
+    header nav [href="index.html"] {
+        display: initial;
     }
 }
