@@ -149,22 +149,28 @@ footer nav ul li img:hover {
  ****************************************/
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 
+/* Liste à puce qui sera le  container FLEX */
 .page-accueil .galerie {
+    /* Supprime les puces */
     list-style-type: none;
+    /* Supprimer les marges par défaut des liste à puces */
     padding: 0;
     margin: 0;
-    /* TU ES UN CONTAINER */
+
+    /* FLEX : TU ES UN CONTAINER */
     display: flex;
+    /* FLEX : affichage en ligne (côte à côte) des éléments
+              par défaut s'affichent en colone */
     flex-direction: row;
-    /* Empèche les élments de sortir du container */
+    /* Empêche les éléments de sortir du container */
     flex-wrap:wrap;
-    /* Aligmenet horizontal */
+    /* Alignment horizontal */
     justify-content: space-between;
-    /* Aligment vertical*/
+    /* Alignment vertical*/
     align-items: flex-start;
 }
 
-/* Les éléments du container */
+/* Les éléments de lite, qui seront les éléments du container FLEX */
 .page-accueil .galerie li {
     padding: 1rem 2.5%;
     /* Largeur de base d'un élément */
